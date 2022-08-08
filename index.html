@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website_freecodecamp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light-color">
+    <div class="page-wrapper">
+      <header>
+        <nav class="nav" id="nav">
+          <div class="nav-left"></div>
+          <div class="nav-middle">
+            <img src="/images/logo.png" alt="logo" id="nav-logo" />
+          </div>
+          <div class="nav-right main-nav">
+            <button aria-expanded="false" class="button-nav" id="button-nav">
+              button-nav
+              <span class="menu-btn-icon">
+                <span class="sr-only">Menu</span>
+              </span>
+              <span class="menu-btn-text">Menu</span>
+            </button>
+            <div class="searchbar" data-testid="searchbar">
+              <div class="search_wrapper">
+                <div class="searchbox">
+                  <form action class="searchbox-form" role="search">
+                    <input
+                      aria-label="search"
+                      class="searchbox-input"
+                      max="512"
+                      placeholder="search 8,000+ tutorials"
+                      spellcheck="false"
+                      type="search"
+                      value
+                    />
+                    <button
+                      class="searchbox-submit"
+                      title="submit your search qurey"
+                      type="submit"
+                    ></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="navsign">
+              <a href="https://api.freecodecamp.org/signin" class="signup-btn">
+                <span class="login-btn-icon"></span>
+                <span class="sr-only">Sing In</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="landing-page">
+        <div class="container">
+          <div class="landing-top">
+            <div class="row">
+              <div class="spacer"></div>
+              <div class="col">
+                <h1 class="big-heading" data-test-lable="landing-header">
+                  Learn to code - for free.
+                </h1>
+                <p class="big-heading">Build projects.</p>
+                <p class="big-heading">Earn certifications.</p>
+                <p>
+                  "Since 2014, more than 40,000 freecodecamp.org graduates have
+                  gotten jobs at tech companies including:"
+                </p>
+                <div class="logo-row">
+                  <img src="/images/apple-logo.png" alt="apple-logo" />
+                  <img src="/images/google-logo.png" alt="google-logo" />
+                  <img src="/images/microsoft-logo.png" alt="microsoft-logo" />
+                  <img src="/images/Spotify-logo.png" alt="Spotify-logo" />
+                  <img src="/images/amazon-logo.png" alt="amazon-logo" />
+                </div>
+                <div class="spacer"></div>
+                <a
+                  href="https://api.freecodecamp.org/signin"
+                  class="btn-signin"
+                >
+                  <span class="login-btn-icon">
+                    <svg></svg>
+                    <span class="sr-only">Sign in</span>
+                  </span>
+                  <span class="login-btn-text">Get started (it's free)</span>
+                </a>
+                <div class="spacer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="certification-section-row">
+            <h1 class="big-heading">Earn free verified certification in:</h1>
+            <div class="map-ui" data-test-lable="learn-curriculum-map">
+              <ul data-test-lable="certifications">
+                <li>
+                  <a class="link-btn" href="/learn/2022/responsive-web-design/">
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "(New) Responsive Web Design"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="link-btn" href="/learn/responsive-web-design/">
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Legacy Responsive Web Design"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="link-btn"
+                    href="/learn/javascript-algorithms-and-data-structures/"
+                  >
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "JavaScript Algorithms and Data Structures"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="link-btn"
+                    href="/learn/front-end-development-libreries/"
+                  >
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Front End Developer Libraries"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="link-btn" href="/learn/data-visualization/">
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Data Visualizatioin"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="link-btn"
+                    href="/learn/back-end-development-and-apis/"
+                  >
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Back End Development and APIs"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="link-btn" href="/learn/quality-assurance/">
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Quality Assurance"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="link-btn"
+                    href="/learn/scientific-computing-with-python/"
+                  >
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Scientific computing with python"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="link-btn" href="/learn/data-analysis-with-python/">
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Data Analysis with Python"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="link-btn" href="/learn/information-security/">
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Information Security"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="link-btn" href="/learn/machine-learn-with-python/">
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Machine Learning with Python"
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="btn-link" href="/learn/relational-database/">
+                    <div class="link-btn btn">
+                      <svg></svg>
+                      "Relational Database (Beta)"
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="spacer"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
